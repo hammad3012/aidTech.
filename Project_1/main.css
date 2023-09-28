@@ -1,0 +1,102 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation */
+header {
+	height: 80px;
+    background-color: #057a8d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h2{
+	margin-right: 650px;
+}
+nav ul {
+	margin-top: -30px;
+	margin-right: -850px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+	/* background-color: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%); ;*/
+  background: linear-gradient(170deg, #057a8d 64%, white 30%);
+    text-align: center;
+    padding: 100px 10px;
+    display: flex;
+
+}
+
+}
+.btn:hover{
+	background-color: #057a8d;
+}
+.hero h1 {
+color: white;
+    font-size: 58px;  
+}
+
+.hero p {
+	text-align: center;
+    font-size: 22px;
+    color: white;
+   padding-bottom: 10px;
+}
+
+.hero img {
+	height: 400px;
+	width: auto;
+}
+
+/* Style the features section */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.feature {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.feature img {
+	max-height: 300px;
+    max-width: 100%;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style the pricing section, add your pricing styles here */
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add more CSS styles as needed to match your design */
+
+/* Responsive design styles for smaller screens (e.g., mobile) can be added using media queries */
